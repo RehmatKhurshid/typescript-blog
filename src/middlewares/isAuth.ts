@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
-import User from '../../models/user/user.models';
+import User from '../models/user/user.models';
 
 const secret = 'secret'; // Hardcoded JWT secret
 

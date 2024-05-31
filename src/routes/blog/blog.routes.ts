@@ -1,7 +1,7 @@
 import express, { Router } from 'express';
 import { createBlog, getBlog, getBlogById, removeBlog, updateBlog } from '../../controllers/blog/blog.controllers';
 import { createUserSchema, validateSchema } from '../../middlewares/user/user.middlewares';
-import isAuthenticated from '../../middlewares/blog/blog.middleware';
+import isAuthenticated from '../../middlewares/isAuth';
 import multer from 'multer';
 import path from 'path';
 
