@@ -512,3 +512,93 @@
   service: 'user-service',
   timestamp: '2024-06-05T11:34:45.093Z'
 }
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T13:10:31.763Z'
+}
+{
+  message: 'mongoose connected successfully',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T13:10:31.807Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T13:11:52.513Z'
+}
+{
+  message: 'mongoose connected successfully',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T13:11:52.544Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T13:14:58.670Z'
+}
+{
+  message: 'mongoose connected successfully',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T13:14:58.713Z'
+}
+{
+  service: 'user-service',
+  level: 'error',
+  message: 'error in create user',
+  timestamp: '2024-06-05T13:29:29.903Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T13:35:04.243Z'
+}
+{
+  message: 'mongoose connected successfully',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T13:35:04.293Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T13:35:06.710Z'
+}
+{
+  message: 'mongoose connected successfully',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T13:35:06.778Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T13:36:27.721Z'
+}
+{
+  message: 'mongoose connected successfully',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T13:36:27.773Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T13:37:04.908Z'
+}
+{
+  message: 'mongoose connected successfully',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T13:37:04.961Z'
+}

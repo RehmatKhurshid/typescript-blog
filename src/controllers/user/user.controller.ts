@@ -8,6 +8,14 @@ import { logger } from "../../utils/logger/logger";
 export const createUser = async (req: Request, res: Response) => {
     try {
 
+        const { email} = req.body;
+
+        const isEmail = await User.findOne({ email: email });
+
+        if (isEmail) {
+            return res.status(200).json({ "message": "Email already exist" })
+        }
+        
         console.log('req.file', req.file);
         const hashedPassword = await bcrypt.hash(req.body.password, 10);
         const userData = {

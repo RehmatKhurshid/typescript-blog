@@ -3,6 +3,7 @@ import { createUserSchema, loginUserSchema, validateSchema } from '../../middlew
 import { createUser, getUserById, getUsers, login, removeUser, updateUser } from '../../controllers/user/user.controller';
 import multer from 'multer';
 import path from 'path';
+import { loginUserValidator, registerUserValidator } from '../../middlewares/user/user.validator';
 
 
 const router : Router = express.Router();
@@ -20,7 +21,7 @@ const upload = multer({storage: storage})
 
 
 
-router.post('/user', upload.single('profilePic'),validateSchema(createUserSchema),  createUser);
+router.post('/user', upload.single('profilePic'), registerUserValidator,validateSchema(createUserSchema),  createUser);
 // router.post('/user', validateSchema(createUserSchema), createUser);
 
 router.get('/user', getUsers);
@@ -31,7 +32,7 @@ router.patch('/user/:id', validateSchema(createUserSchema.partial()), updateUser
 
 router.get('/user/:id', getUserById);
 
-router.post ('/login', validateSchema(loginUserSchema), login);
+router.post ('/login',loginUserValidator ,validateSchema(loginUserSchema), login);
 
 
 export default router;
