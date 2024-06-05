@@ -1,0 +1,514 @@
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T10:30:06.195Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:16:49.708Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:17:04.249Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:17:35.687Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:17:53.292Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:18:05.849Z'
+}
+{
+  '0': {
+    _id: new ObjectId('66558a3548864a80e0bee403'),
+    title: 'mountain',
+    description: 'beautiful',
+    likeCount: 10,
+    comment: 'qwertyuiop',
+    createdAt: 2024-05-28T07:39:33.298Z,
+    updatedAt: 2024-05-28T07:39:33.298Z,
+    __v: 0
+  },
+  '1': {
+    _id: new ObjectId('6655a02bb0c4df2ab5f63245'),
+    title: 'rehmattt',
+    description: ' beautiful you',
+    likeCount: 1011,
+    comment: 'lkjhgfdsa',
+    createdAt: 2024-05-28T09:13:15.492Z,
+    updatedAt: 2024-05-28T09:31:59.486Z,
+    __v: 0
+  },
+  '2': {
+    _id: new ObjectId('6655a144476a293899142196'),
+    title: 'bag',
+    description: ' beautigul',
+    likeCount: 1011,
+    comment: 'lkjhgfdsa',
+    createdAt: 2024-05-28T09:17:56.788Z,
+    updatedAt: 2024-05-28T09:17:56.788Z,
+    __v: 0
+  },
+  '3': {
+    _id: new ObjectId('6657ec3ad71001267db226f1'),
+    title: 'laptop 1',
+    description: 'wertyui',
+    likeCount: 10,
+    comment: 'sdfghjkl',
+    author: new ObjectId('665746dfa418ed247ea85033'),
+    createdAt: 2024-05-30T03:02:18.431Z,
+    updatedAt: 2024-05-30T03:02:18.431Z,
+    __v: 0
+  },
+  '4': {
+    _id: new ObjectId('6657ecd4dbf45cc60845baf7'),
+    title: 'laptop 2',
+    description: 'wertyui',
+    likeCount: 10,
+    comment: 'sdfghjkl',
+    imageUrl: 'imageUrl-1717038292137.webp',
+    author: new ObjectId('665746dfa418ed247ea85033'),
+    createdAt: 2024-05-30T03:04:52.167Z,
+    updatedAt: 2024-05-30T03:04:52.167Z,
+    __v: 0
+  },
+  service: 'user-service',
+  level: 'info',
+  message: 'blog',
+  timestamp: '2024-06-05T11:19:23.566Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:20:04.824Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:20:19.467Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:21:06.463Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:21:30.374Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:22:11.852Z'
+}
+{
+  message: 'mongoose connected successfully',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:22:11.883Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:23:31.618Z'
+}
+{
+  message: 'mongoose connected successfully',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:23:31.645Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:23:35.632Z'
+}
+{
+  message: 'mongoose connected successfully',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:23:35.671Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:25:30.561Z'
+}
+{
+  message: 'mongoose connected successfully',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:25:30.594Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:26:08.207Z'
+}
+{
+  message: 'mongoose connected successfully',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:26:08.255Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:26:17.665Z'
+}
+{
+  message: 'mongoose connected successfully',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:26:17.721Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:26:21.056Z'
+}
+{
+  message: 'mongoose connected successfully',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:26:21.096Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:26:48.009Z'
+}
+{
+  message: 'mongoose connected successfully',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:26:48.048Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:26:49.374Z'
+}
+{
+  message: 'mongoose connected successfully',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:26:49.408Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:26:55.687Z'
+}
+{
+  message: 'mongoose connected successfully',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:26:55.725Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:27:11.459Z'
+}
+{
+  message: 'mongoose connected successfully',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:27:11.501Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:27:42.858Z'
+}
+{
+  message: 'mongoose connected successfully',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:27:42.885Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:28:23.688Z'
+}
+{
+  message: 'mongoose connected successfully',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:28:23.739Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:29:08.195Z'
+}
+{
+  message: 'mongoose connected successfully',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:29:08.230Z'
+}
+{
+  '0': {
+    _id: new ObjectId('66558a3548864a80e0bee403'),
+    title: 'mountain',
+    description: 'beautiful',
+    likeCount: 10,
+    comment: 'qwertyuiop',
+    createdAt: 2024-05-28T07:39:33.298Z,
+    updatedAt: 2024-05-28T07:39:33.298Z,
+    __v: 0
+  },
+  '1': {
+    _id: new ObjectId('6655a02bb0c4df2ab5f63245'),
+    title: 'rehmattt',
+    description: ' beautiful you',
+    likeCount: 1011,
+    comment: 'lkjhgfdsa',
+    createdAt: 2024-05-28T09:13:15.492Z,
+    updatedAt: 2024-05-28T09:31:59.486Z,
+    __v: 0
+  },
+  '2': {
+    _id: new ObjectId('6655a144476a293899142196'),
+    title: 'bag',
+    description: ' beautigul',
+    likeCount: 1011,
+    comment: 'lkjhgfdsa',
+    createdAt: 2024-05-28T09:17:56.788Z,
+    updatedAt: 2024-05-28T09:17:56.788Z,
+    __v: 0
+  },
+  '3': {
+    _id: new ObjectId('6657ec3ad71001267db226f1'),
+    title: 'laptop 1',
+    description: 'wertyui',
+    likeCount: 10,
+    comment: 'sdfghjkl',
+    author: new ObjectId('665746dfa418ed247ea85033'),
+    createdAt: 2024-05-30T03:02:18.431Z,
+    updatedAt: 2024-05-30T03:02:18.431Z,
+    __v: 0
+  },
+  '4': {
+    _id: new ObjectId('6657ecd4dbf45cc60845baf7'),
+    title: 'laptop 2',
+    description: 'wertyui',
+    likeCount: 10,
+    comment: 'sdfghjkl',
+    imageUrl: 'imageUrl-1717038292137.webp',
+    author: new ObjectId('665746dfa418ed247ea85033'),
+    createdAt: 2024-05-30T03:04:52.167Z,
+    updatedAt: 2024-05-30T03:04:52.167Z,
+    __v: 0
+  },
+  service: 'user-service',
+  level: 'info',
+  message: 'blog',
+  timestamp: '2024-06-05T11:30:10.153Z'
+}
+{
+  '0': {
+    _id: new ObjectId('66558a3548864a80e0bee403'),
+    title: 'mountain',
+    description: 'beautiful',
+    likeCount: 10,
+    comment: 'qwertyuiop',
+    createdAt: 2024-05-28T07:39:33.298Z,
+    updatedAt: 2024-05-28T07:39:33.298Z,
+    __v: 0
+  },
+  '1': {
+    _id: new ObjectId('6655a02bb0c4df2ab5f63245'),
+    title: 'rehmattt',
+    description: ' beautiful you',
+    likeCount: 1011,
+    comment: 'lkjhgfdsa',
+    createdAt: 2024-05-28T09:13:15.492Z,
+    updatedAt: 2024-05-28T09:31:59.486Z,
+    __v: 0
+  },
+  '2': {
+    _id: new ObjectId('6655a144476a293899142196'),
+    title: 'bag',
+    description: ' beautigul',
+    likeCount: 1011,
+    comment: 'lkjhgfdsa',
+    createdAt: 2024-05-28T09:17:56.788Z,
+    updatedAt: 2024-05-28T09:17:56.788Z,
+    __v: 0
+  },
+  '3': {
+    _id: new ObjectId('6657ec3ad71001267db226f1'),
+    title: 'laptop 1',
+    description: 'wertyui',
+    likeCount: 10,
+    comment: 'sdfghjkl',
+    author: new ObjectId('665746dfa418ed247ea85033'),
+    createdAt: 2024-05-30T03:02:18.431Z,
+    updatedAt: 2024-05-30T03:02:18.431Z,
+    __v: 0
+  },
+  '4': {
+    _id: new ObjectId('6657ecd4dbf45cc60845baf7'),
+    title: 'laptop 2',
+    description: 'wertyui',
+    likeCount: 10,
+    comment: 'sdfghjkl',
+    imageUrl: 'imageUrl-1717038292137.webp',
+    author: new ObjectId('665746dfa418ed247ea85033'),
+    createdAt: 2024-05-30T03:04:52.167Z,
+    updatedAt: 2024-05-30T03:04:52.167Z,
+    __v: 0
+  },
+  service: 'user-service',
+  level: 'info',
+  message: 'blog',
+  timestamp: '2024-06-05T11:30:53.266Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:31:35.893Z'
+}
+{
+  message: 'mongoose connected successfully',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:31:35.933Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:33:14.837Z'
+}
+{
+  message: 'mongoose connected successfully',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:33:14.872Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:34:06.540Z'
+}
+{
+  message: 'mongoose connected successfully',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:34:06.574Z'
+}
+{
+  service: 'user-service',
+  '$__': InternalCache {
+    activePaths: StateMachine {
+      paths: {
+        author: 'require',
+        _id: 'init',
+        title: 'init',
+        description: 'init',
+        likeCount: 'init',
+        comment: 'init',
+        createdAt: 'init',
+        updatedAt: 'init',
+        __v: 'init'
+      },
+      states: {
+        require: { author: true },
+        init: {
+          _id: true,
+          title: true,
+          description: true,
+          likeCount: true,
+          comment: true,
+          createdAt: true,
+          updatedAt: true,
+          __v: true
+        }
+      }
+    },
+    skipId: true
+  },
+  '$isNew': false,
+  _doc: {
+    _id: new ObjectId('6655a144476a293899142196'),
+    title: 'bag',
+    description: ' beautigul',
+    likeCount: 1011,
+    comment: 'lkjhgfdsa',
+    createdAt: 2024-05-28T09:17:56.788Z,
+    updatedAt: 2024-05-28T09:17:56.788Z,
+    __v: 0
+  },
+  level: 'info',
+  message: 'blog',
+  timestamp: '2024-06-05T11:34:11.220Z'
+}
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:34:43.822Z'
+}
+{
+  message: 'mongoose connected successfully',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:34:43.855Z'
+}
+{
+  message: {
+    _id: new ObjectId('6655a144476a293899142196'),
+    title: 'bag',
+    description: ' beautigul',
+    likeCount: 1011,
+    comment: 'lkjhgfdsa',
+    createdAt: 2024-05-28T09:17:56.788Z,
+    updatedAt: 2024-05-28T09:17:56.788Z,
+    __v: 0
+  },
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-05T11:34:45.093Z'
+}

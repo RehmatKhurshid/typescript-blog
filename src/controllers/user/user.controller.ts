@@ -3,6 +3,7 @@ import bcrypt from "bcrypt";
 import User from "../../models/user/user.models";
 import { createuser, deleteUser, getAllUser, getOne, updateuser } from "../../services/users/user.services";
 import jwt from "jsonwebtoken";
+import { logger } from "../../utils/logger/logger";
 
 export const createUser = async (req: Request, res: Response) => {
     try {
@@ -19,7 +20,7 @@ export const createUser = async (req: Request, res: Response) => {
         res.status(201).json({ message: "user created" });
 
     } catch (error) {
-        console.log('error in create user', JSON.stringify(error));
+        logger.error('error in create user', JSON.stringify(error));
         return res.status(401).json({ message: 'error in create user' });
     }
 
@@ -28,10 +29,10 @@ export const createUser = async (req: Request, res: Response) => {
 export const getUsers = async (req: Request, res: Response) => {
     try {
         const user = await getAllUser();
-        console.log('user', user)
+        logger.info('user', user)
         return res.status(200).json(user);
     } catch (error) {
-        console.log('error in get user', JSON.stringify(error));
+        logger.error('error in get user', JSON.stringify(error));
         return res.status(401).json({ message: 'error in get users' });
     }
 
@@ -49,7 +50,7 @@ export const removeUser = async (req: Request, res: Response) => {
         return res.status(200).json({ message: 'user deleted' });
 
     } catch (error) {
-        console.log('error in get user', JSON.stringify(error));
+        logger.error('error in get user', JSON.stringify(error));
         return res.status(401).json({ message: 'error in get users' });
     }
 }
@@ -60,7 +61,7 @@ export const updateUser = async (req: Request, res: Response) => {
         return res.status(200).json(user);
 
     } catch (error) {
-        console.log('error in get user', JSON.stringify(error));
+        logger.error('error in get user', JSON.stringify(error));
         return res.status(401).json({ message: 'error in update users' });
     }
 }
@@ -70,7 +71,7 @@ export const getUserById = async (req: Request, res: Response) => {
         const user = await getOne(req.params.id);
         return res.status(200).json({ user });
     } catch (error) {
-        console.log('error in get user', JSON.stringify(error));
+        logger.error('error in get user', JSON.stringify(error));
         return res.status(401).json({ message: 'error in getUserById users' });
     }
 }
@@ -118,7 +119,7 @@ export const login = async (req: Request, res: Response) => {
         });
     } catch (error) {
 
-        console.log('error in login user', JSON.stringify(error));
+        logger.error('error in login user', JSON.stringify(error));
         return res.status(401).json({ message: 'error in login users' });
     }
 

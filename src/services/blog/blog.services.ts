@@ -1,6 +1,5 @@
 import Blog from "../../models/blog/blog.model";
 import { IBlog } from "../../types/types";
-import bcrypt from 'bcrypt';
 
 
 // export const createblog = async (blog : IBlog) => await Blog.create(blog);

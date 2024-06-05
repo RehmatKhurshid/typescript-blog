@@ -18,17 +18,17 @@ const storage = multer.diskStorage({
 
 const upload = multer({storage: storage})
 
-
 router.post('/blog',isAuthenticated , upload.single('imageUrl'), createBlog);
 
 router.get('/blog', getBlog);
+
+router.get('/blog/:id' , getBlogById)
 
 router.delete('/blog/:id', isAuthenticated,removeBlog);
 
 router.patch('/blog/:id',isAuthenticated ,updateBlog);
 
 router.patch('/blog/:id', isAuthenticated ,validateSchema(createUserSchema.partial()), updateBlog);
-
 
 // router.get('/blog/:id', getBlogById);
 
