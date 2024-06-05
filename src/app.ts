@@ -5,6 +5,7 @@ import UserRoutes from './routes/user/user.routes';
 
 import BlogRoutes from './routes/blog/blog.routes';
 import { logger } from './utils/logger/logger';
+import helmet from 'helmet';
 
 
 const app = express();
@@ -17,6 +18,7 @@ connectDB();
 app.use(express.json());
 app.use(express.urlencoded())
 
+app.use(helmet());
 app.use('/api', UserRoutes)
 app.use('/api', BlogRoutes)
 
