@@ -602,3 +602,15 @@
   service: 'user-service',
   timestamp: '2024-06-05T13:37:04.961Z'
 }
+{
+  message: 'server is running on port 7000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-06T05:32:55.443Z'
+}
+{
+  message: 'mongoose connected successfully',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-06-06T05:32:55.495Z'
+}

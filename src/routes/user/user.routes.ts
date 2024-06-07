@@ -21,7 +21,7 @@ const upload = multer({storage: storage})
 
 
 
-router.post('/user', upload.single('profilePic'), registerUserValidator,validateSchema(createUserSchema),  createUser);
+router.post('/user', upload.single('profilePic'), registerUserValidator, validateSchema(createUserSchema),  createUser);
 // router.post('/user', validateSchema(createUserSchema), createUser);
 
 router.get('/user', getUsers);

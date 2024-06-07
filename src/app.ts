@@ -18,7 +18,6 @@ connectDB();
 app.use(express.json());
 app.use(express.urlencoded())
 
-//headers are a collection of smaller middleware functions that set security-related HTTP headers 
 app.use(helmet());                          
 app.use('/api', UserRoutes)
 app.use('/api', BlogRoutes)
